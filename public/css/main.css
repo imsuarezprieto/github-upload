@@ -1,0 +1,15 @@
+.card {
+	height: fit-content;
+}
+
+main {
+	display: grid;
+	grid-auto-flow: row;
+	grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
+	grid-gap: 2rem;
+	margin: 4rem;
+}
+
+.card-text {
+	hyphens: auto;
+}
